@@ -13,8 +13,6 @@ import warnings
 from pymongo import MongoClient
 warnings.filterwarnings('ignore')
 ```
-**Use MongoDB Commands**
-
 - List of MongoDB Commands
 
 ## find_one()
