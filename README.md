@@ -1,5 +1,18 @@
 # Meals info project using MongoDB
 
+**Use MongoDB for NoSQL**
+
+> Meals info Database contains collection of foods with different countries.
+> Python is a programming language linked with MongoDB which helps to access and retrive databases.
+
+**Use Required Modules**
+```
+import warnings
+from pymongo import MongoClient
+warnings.filterwarnings('ignore')
+```
+**Use MongoDB Commands**
+
 ## find_one()
 
 *find_one() method is used to return single document from the database collection*
