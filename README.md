@@ -1,4 +1,4 @@
-# Meals info project using MongoDB
+# Meals info project using MongoDB & MySQL
 
 **Use MongoDB for NoSQL**
 
