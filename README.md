@@ -29,13 +29,56 @@ db.collection.insert_one(record)
 ```
 
 ## insert_many()
+
 *insert_many() method is used to insert multiple documents into a collection*
 ```
 db.collection.insert_many([{record1},{record2} ... {recordn}])
 ```
 
 ##  update_one()
+
 *update_one() method is used to update single document into a collection*
 ```
+db.collection.update_one(myquery,newvalues)
+```
 
+## update_many()
+
+*update_many() method is used to update multiple documents into a collection*
+```
+db.collection.update_many(filter,update,options)
+```
+
+## delete_one()
+
+*delete_one() method is used to delete one document or record from collection*
+```
+db.collection.delete_one(record)
+```
+
+## delete_many()
+
+*delete_many() method is used to delete multiple documents or records from collection*
+```
+db.collection.delete_many(records)
+```
+
+## count()
+
+*count() method is used to count number od documents from collection*
+```
+db.collection.find().count()
+```
+
+## sort()
+*sort() method is used to sort the collection of fields either ascending or descending order*
+```
+db.collection.find().sort([("name",1)])
+```
+
+## drop()
+
+*drop() method is used to delete entire documents in the database*
+```
+db.collection.drop()
 ```
