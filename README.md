@@ -13,9 +13,7 @@ import warnings
 from pymongo import MongoClient
 warnings.filterwarnings('ignore')
 ```
-
-**Client Collection with MongoDB**
-
+> Client Collection with MongoDB
 ```
 MongoClient(localhost,PortNumber)
 ```
