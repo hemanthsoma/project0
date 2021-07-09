@@ -7,7 +7,7 @@
 
 **Use Required Modules**
 
-> pymongo is the standard MongoDB library and MongoClient method used to establish a connection to a MongoDB objects.
+> Pymongo is the standard MongoDB library and MongoClient is used to establish a connection to a MongoDB objects.
 ```
 import warnings
 from pymongo import MongoClient
