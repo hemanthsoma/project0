@@ -14,6 +14,12 @@ from pymongo import MongoClient
 warnings.filterwarnings('ignore')
 ```
 
+**Client Collection with MongoDB**
+
+```
+MongoClient(localhost,PortNumber)
+```
+
 ***List of MongoDB Commands***
 
 ## find_one()
