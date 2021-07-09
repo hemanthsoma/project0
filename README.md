@@ -20,7 +20,7 @@ warnings.filterwarnings('ignore')
 MongoClient(localhost,PortNumber)
 ```
 
-***List of MongoDB Commands***
+**List of MongoDB Commands**
 
 ## find_one()
 
