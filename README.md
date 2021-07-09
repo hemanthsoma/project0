@@ -6,12 +6,16 @@
 > Python is a programming language linked with MongoDB which helps to access and retrive databases.
 
 **Use Required Modules**
+
+> pymongo is the standard MongoDB library and MongoClient method used to establish a connection to a MongoDB objects.
 ```
 import warnings
 from pymongo import MongoClient
 warnings.filterwarnings('ignore')
 ```
 **Use MongoDB Commands**
+
+- List of MongoDB Commands
 
 ## find_one()
 
