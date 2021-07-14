@@ -32,3 +32,18 @@ MongoClient(localhost,PortNumber)
 - count()
 - sort()
 - drop()
+
+**Use MySQL workbench**
+
+> Select Local instance MySQL80.
+> Connect to the database to establish the connection.
+> Create a table and insert the data using below SQL commands.
+
+## List of MySQL Commands
+
+- SELECT
+- LIMIT
+- DELETE
+- INSERT
+- DROP
+- SORT - ORDER BY (ASC OR DESC)
