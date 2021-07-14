@@ -3,7 +3,7 @@
 **Use MongoDB for NoSQL**
 
 > Meals info Database contains collection of foods with different countries.
-> Python is a programming language linked with MongoDB which helps to access and retrive databases.
+> Python is a programming language linked with MongoDB which helps to access and retrieve databases.
 
 **Use Required Modules**
 
@@ -45,5 +45,5 @@ MongoClient(localhost,PortNumber)
 - LIMIT
 - DELETE
 - INSERT
-- DROP
 - SORT - ORDER BY (ASC OR DESC)
+- DROP
