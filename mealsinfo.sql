@@ -1,8 +1,8 @@
-SELECT * FROM MealsInfo;
+SELECT * FROM MealsInfo.table_info;
 
 -- To select a row from table
 
-SELECT * FROM MealsInfo limit 1;
+SELECT * FROM MealsInfo.table_info limit 1;
 
 -- To select limited rows from table
 
@@ -10,14 +10,12 @@ SELECT * FROM table_info limit 5;
 
 -- Delete
 
-DELETE from table
-SELECT * FROM table_info WHERE meal_id = 1438;
-
+DELETE from table_info WHERE meal_id = 1438;
+SELECT * FROM table_info;
 
 -- Update
 
-UPDATE table_info
-SET category = "Salad" WHERE meal_id = 2307;
+UPDATE table_info SET category = "Salad" WHERE meal_id = 2307;
 SELECT * FROM table_info;
 
 -- Insert
